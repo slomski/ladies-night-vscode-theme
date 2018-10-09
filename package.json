@@ -1,0 +1,23 @@
+{
+  "name": "ladies-night",
+  "displayName": "Ladies Night",
+  "description": "Theme inspired by intelliJ Ladies Night 2",
+  "version": "0.0.1",
+  "license": "CC BY-SA 3.0",
+  "publisher": "haystack",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ladies Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ladies Night-color-theme.json"
+      }
+    ]
+  }
+}
